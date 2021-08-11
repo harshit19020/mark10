@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="big">
+        <div>
+            <h1 class="head">Cash Register</h1>
+            <div class="container">
+                <p class="desc">Enter the bill amount and the change that you have given, accordingly you will get the
+                    change
+                </p>
+                <!-- <label for="bill-amount">enter the bill amount</label> -->
+                <input type="text" id="bill-amount" placeholder="enter bill amount">
+                <!-- <label for="cash-given">enter the cash given</label>        -->
+                <input type="text" id="cash-given" placeholder="enter the cash given">
+                <button id="check-button">check</button>
+                <p id="error-message"></p>
+            </div>
+
+            <div class="container2">
+                <table class="change-table">
+                    <caption>return change <br><br></caption>
+                    <tr class="tb">
+                        <th>number of notes</th>
+                        <td class="notes"></td>
+                        <td class="notes"></td>
+                        <td class="notes"></td>
+                        <td class="notes"></td>
+                        <td class="notes"></td>
+                        <td class="notes"></td>
+                        <td class="notes"></td>
+                        <td class="notes"></td>
+                        <td class="notes"></td>
+                        <td class="notes"></td>
+                    </tr>
+                    <tr>
+                        <th>notes</th>
+                        <td>2000</td>
+                        <td>500</td>
+                        <td>200</td>
+                        <td>100</td>
+                        <td>50</td>
+                        <td>20</td>
+                        <td>10</td>
+                        <td>5</td>
+                        <td>2</td>
+                        <td>1</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="container-img">
+            <img src="a.jpg" alt="" width="300" height="250">
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
